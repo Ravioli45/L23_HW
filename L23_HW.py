@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-x = np.linspace(0, 2*np.pi)
-y = np.sin(x)
+x = np.linspace(0, 2*np.pi, 500)
+y = np.sin(4*x)
 
 plt.plot(x, y)
 plt.show()
